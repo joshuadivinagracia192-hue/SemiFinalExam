@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+    background-color: #aeb2b1;
+    color: #0b3c49;
+}
+header {
+    background-color: #436e86;
+    color: white;
+    padding: 20px;
+    border: 5px solid #436e86;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+header p {
+    margin: 5px 0 0;
+}
+.title-img {
+  height: 100px;
+  vertical-align: middle;  
+  margin-right: 10px;      
+  background-color: white;
+  border-radius: 8px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+main {
+    max-width: 700px;
+    margin:30px auto;
+    padding: 0 20px;
+}
+.featured {
+    background-color: #edc25c;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.featured blockquote {
+    font-size: 1.8rem;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin: 0;
+}
+.featured p {
+    margin: 15px 0 0;
+    font-style: italic;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.quote {
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 15px outset #67a9d0;
+    border-right: 15px outset #67a9d0;
+    border-top: 15px outset #67a9d0;
+    border-bottom: 15px outset #67a9d0;
+    border-radius: 6px;
+}
+.quote p{
+    margin: 0;
+    font-family: Georgoa, serif;
+    font-size: 1.2rem;
+}
+.quote span {
+    display: block;
+    margin-top: 5px;
+    color: #4f6f77;
+}
+.quote:hover {
+    background-color: #9ef1d8;
+}
